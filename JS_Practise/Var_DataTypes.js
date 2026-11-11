@@ -121,3 +121,4 @@ let bcd = 20;
 
 console.log(abc); // This will log 30, as 'var' is function-scoped and the value of 'abc' was updated within the block.
 console.log(bcd); // This will log 20, as 'let' is block-scoped and the value of 'bcd' outside the block remains unchanged.
+
