@@ -119,3 +119,12 @@ employees = employees.map((employee) => employee.name === "John" ? { ...employee
 console.log(`Employees: ${employees.map((employee) => `${employee.name} (${employee.role})`).join(", ")}`); // This will log the names and roles of all employees in the array.
 employees = employees.map((employee) => employee.name === "Jane" ? { ...employee, age: 30 } : employee); 
 console.log(`Employees: ${employees.map((employee) => `${employee.name} (${employee.age})`).join(", ")}`); // This will log the names and ages of all employees in the array.
+
+let arr = [1, 2, 3];
+
+console.log(arr.length);
+
+arr[5] = 6;
+
+console.log(arr);
+console.log(arr.length);
