@@ -120,6 +120,7 @@ console.log(`Employees: ${employees.map((employee) => `${employee.name} (${emplo
 employees = employees.map((employee) => employee.name === "Jane" ? { ...employee, age: 30 } : employee); 
 console.log(`Employees: ${employees.map((employee) => `${employee.name} (${employee.age})`).join(", ")}`); // This will log the names and ages of all employees in the array.
 
+// Array length and sparse arrays
 let arr = [1, 2, 3];
 
 console.log(arr.length);
@@ -128,3 +129,18 @@ arr[5] = 6;
 
 console.log(arr);
 console.log(arr.length);
+
+//Object Destructuring
+
+let employee2 = {
+    name: "Anvesh",
+    role: "QA",
+    experience: 5
+};
+
+let {name, role} = employee2;
+
+console.log(name); //Instead of writing employee2.name, we can directly access the name property using destructuring.
+console.log(role); //Instead of writing employee2.role, we can directly access the role property using destructuring.
+
+
