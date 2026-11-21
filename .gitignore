@@ -1,4 +1,4 @@
-# Logs
+/playwrightnov26batchexercises/# Logs
 logs
 *.log
 npm-debug.log*
@@ -147,3 +147,4 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+/playwrightnov26batchexercises/
