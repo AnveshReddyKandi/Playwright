@@ -67,9 +67,9 @@ username ??= "Guest"; // Nullish coalescing assignment operator: Assigns "Guest"
 
 console.log(username);
 
-let username2 = "";
+let username2 ; // Declares a variable 'username2' without initializing it, so its value is undefined.
 
-username2 ??= "Guest";
+username2 ??= "Guest"; // Nullish coalescing assignment operator: Assigns "Guest" to 'username2' only if 'username2' is null or undefined. Since 'username2' is an empty string (which is not null or undefined), it will not be assigned "Guest".
 
 console.log(username2);
 
